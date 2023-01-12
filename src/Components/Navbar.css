@@ -41,10 +41,9 @@
   border-radius: 10px;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+  text-decoration: none;
 }
 .NavbarInner .HireMeBtn:hover {
-  color: crimson;
-  background-color: #cacaca;
   transform: scale(1.1);
 }
 .NavbarInner .logo {

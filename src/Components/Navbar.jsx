@@ -41,7 +41,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div className="hireAndBar">
-                        <button className='HireMeBtn'>Hire Me</button>
+                        <a href='https://www.freelancer.com/hireme/ranarr122' rel="noreferrer" target={'_blank'} className='HireMeBtn'>Hire Me</a>
                         <div className={`barIcon d-md-none ${barArea}`} onClick={BarClicked}>
                             <div className={`bars ${bar1}`}></div>
                             <div className={`bars ${bar2}`}></div>

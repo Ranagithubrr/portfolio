@@ -47,10 +47,9 @@
         border-radius: 10px;
         transition: 0.3s ease-in-out;
         cursor: pointer;
+        text-decoration: none;
 
-        &:hover {
-            color: crimson;
-            background-color: #cacaca;
+        &:hover {        
             transform: scale(1.1);
         }
 

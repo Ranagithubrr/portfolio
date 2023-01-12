@@ -45,7 +45,10 @@ const Home = () => {
                         />
                     </span>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed reprehenderit tempore nulla repudiandae quasi {RiFacebookFill} suscipit.</p>
+                    <p>Welcome to my professional portfolio website! I am a front-end developer with a passion for creating visually appealing and user-friendly websites using MERN stack, specifically React. My portfolio showcases my diverse range of projects and skills
+                        <br />
+                        <br />
+                        </p>
                     <button className='cbBtn'>Download CV</button>
                 </div>
             </div>
