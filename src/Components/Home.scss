@@ -1,0 +1,83 @@
+@import "MainCommonStyles";
+
+.Home {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    h4 {
+        color: #d8d6d6;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+
+    h1 {
+        font-size: 52px;
+        font-family: 'Acme', sans-serif;
+
+        span {
+            color: crimson;
+            font-weight: 900;
+            span{
+                color:#d8d6d6;
+            }
+        }
+    }
+
+    h3 {
+        font-size: 42px;
+        font-family: 'Prosto One', cursive;
+        display: flex;
+        span{
+            margin-left: 15px;
+        }
+    }
+
+    p {
+        font-size: 16px;
+        color: #d8d6d6;
+        letter-spacing: 2px;
+    }
+
+    .cbBtn {
+        background: none;
+        border: 1px solid #dc143c91;
+        color: crimson;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 5px 20px;
+        border-radius: 5px;
+        transition: 0.3s ease;
+
+        &:hover {
+            background-color: crimson;
+            color: #d8d6d6;
+        }
+    }
+
+    .dpPik {
+        border-radius: 20px;
+        height: 400px;
+        border: 10px solid #2b2b2b;
+    }
+
+    .socialIcons{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        a{
+            background-color: $redOne;
+            color:#fff;
+            margin:10px;
+            border-radius: 20%;
+            padding:5px 10px;
+            font-size: 20px;
+            transition: 0.5s ease;
+            &:hover{
+                background-color: #000;
+                color:$redOne;
+
+            }
+        }
+    }
+}

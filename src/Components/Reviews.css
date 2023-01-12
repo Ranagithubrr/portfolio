@@ -1,0 +1,85 @@
+.Review {
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  height: 350px;
+  cursor: -webkit-grab;
+  cursor: grab;
+  background-color: #1f2432;
+}
+.Review .ReviewTop {
+  display: flex;
+  position: relative;
+}
+.Review .ReviewTop img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+}
+.Review .ReviewTop .clientDesc {
+  padding-left: 30px;
+  width: 80%;
+}
+.Review .ReviewTop .clientDesc h4 {
+  font-size: 22px;
+  color: #d8d6d6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.Review .ReviewTop .clientDesc h4 img {
+  height: 20px;
+  width: 30px;
+  border-radius: 0%;
+  position: absolute;
+  right: 0;
+}
+.Review .ReviewTop .clientDesc h6 {
+  color: #d8d6d6;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.Review .ReviewTop .clientDesc h5 {
+  color: #d8d6d6;
+  font-size: 16px;
+  margin-top: 5px;
+  white-space: nowrap;
+  width: 82%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Review .ReviewTop .clientDesc span {
+  color: #d8d6d6;
+  text-decoration: none;
+  font-size: 12px;
+}
+.Review .ReviewTop .clientDesc span a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.Review .ReviewBottom {
+  padding-top: 30px;
+}
+.Review .ReviewBottom p {
+  line-height: 0px;
+}
+.Review .ReviewBottom p .leftQuote {
+  transform: rotate(180deg);
+  display: inline-block;
+  font-size: 35px;
+}
+.Review .ReviewBottom p .RightQuote {
+  font-size: 35px;
+  display: inline-block;
+}
+.Review .ratingsBox {
+  position: absolute;
+  bottom: 20px;
+}
+.Review .ratingsBox span {
+  color: #faf600;
+  margin-left: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}/*# sourceMappingURL=Reviews.css.map */

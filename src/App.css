@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&family=Prosto+One&family=Roboto:wght@400;500;700;900&family=Sevillana&family=Yeon+Sung&display=swap');
+
+/* fonts
+
+font-family: 'Acme', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Prosto One', cursive;
+font-family: 'Sevillana', cursive;
+font-family: 'Yeon Sung', cursive;
+*/
+
+
+
+body {
+  background-color: #212428;
+  color: #fcfcfc;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.MainArea {
+  width: 80%;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container-fluid {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.slick-dots li button:before {
+  font-size: 20px;
+  height: 10px !important;
+  width: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+  .Home .socialIcons {
+    justify-content: center;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .Home h1 {
+    font-size: 30px !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Home h3 {
+    font-size: 20px !important;
+  }
+
+  .Home h4 {
+    text-align: center !important;
+  }
+
+  .Project .filterButton button {
+    padding: 5px 39px !important;
+    margin: 10px 10px !important;
+  }
+
+  .Review {
+    height: auto !important;
+  }
+
+  .Review .ReviewTop {
+    flex-direction: column;
+  }
+
+  .Review .ReviewTop .clientDesc {
+    padding-left: 0px !important;
+    margin-top: 15px;
+    width: 100% !important;
+  }
+
+  .Review .ratingsBox {
+    bottom: 45px !important;
+  }
+
+  .Review .ReviewBottom p{
+    padding-top: 20px;
+    line-height: 25px !important;
+  }
+  .Review .ReviewBottom {
+    padding-top: 0 !important;
+    padding-bottom: 60px;
   }
 }

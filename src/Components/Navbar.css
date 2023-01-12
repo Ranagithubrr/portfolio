@@ -1,0 +1,178 @@
+.NavbarInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+}
+.NavbarInner .NavbarRight {
+  display: flex;
+  align-items: initial;
+}
+.NavbarInner .NavbarRight ul {
+  margin: 0;
+  padding: 0;
+}
+.NavbarInner .NavbarRight ul li {
+  list-style-type: none;
+}
+.NavbarInner .NavbarRight ul li a {
+  color: #cacaca;
+  font-weight: 500;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.NavbarInner .NavbarRight ul li a:hover {
+  color: #ee2c2c;
+}
+.NavbarInner .hireAndBar {
+  display: flex;
+  align-items: center;
+}
+.NavbarInner .HireMeBtn {
+  border: none;
+  outline: none;
+  background-color: crimson;
+  color: #cacaca;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.NavbarInner .HireMeBtn:hover {
+  color: crimson;
+  background-color: #cacaca;
+  transform: scale(1.1);
+}
+.NavbarInner .logo {
+  color: #fcfcfc;
+  font-weight: 800;
+  font-size: 26px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  font-family: "Pacifico", cursive;
+}
+.NavbarInner .logo:hover {
+  transform: scale(2);
+}
+.NavbarInner .logo span {
+  color: crimson;
+}
+.NavbarInner .barArea {
+  position: fixed;
+  top: 25px;
+  right: 20px;
+}
+.NavbarInner .barIcon {
+  margin-left: 10px;
+  z-index: 10;
+}
+.NavbarInner .barIcon .bars {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.NavbarInner .barIcon .bar1 {
+  transform: rotate(-45deg);
+  transform-origin: top right;
+}
+.NavbarInner .barIcon .bar2 {
+  opacity: 0;
+}
+.NavbarInner .barIcon .bar3 {
+  transform: rotate(45deg);
+  transform-origin: right top;
+}
+
+@media screen and (max-width: 768px) {
+  .navBarItems {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #212428;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    padding-top: 50px !important;
+    z-index: 9;
+    transition: 0.3s ease-in-out;
+  }
+  .navBarItems li {
+    display: block;
+  }
+  .navBarItems li a {
+    transition: 0.3s ease;
+    display: block;
+    padding: 40px 0;
+  }
+  .navBarItems li a:nth-child(1) {
+    transform: translateX(-500px);
+    transition: 5s ease;
+    transition-delay: 2s;
+  }
+  .navBarItems li a:nth-child(2) {
+    transform: translateX(-500px);
+    transition: 5s ease;
+    transition-delay: 3s;
+  }
+  .navBarItems li a:nth-child(3) {
+    transform: translateX(-500px);
+    transition: 5s ease;
+    transition-delay: 4s;
+  }
+  .navBarItems li a:nth-child(4) {
+    transform: translateX(-500px);
+    transition: 5s ease;
+    transition-delay: 5s;
+  }
+  .navBarItems li a:nth-child(5) {
+    transform: translateX(-500px);
+    transition: 5s ease;
+    transition-delay: 6s;
+  }
+  .navBarItems li a:nth-child(6) {
+    transform: translateX(-500px);
+    transition: 5s ease;
+    transition-delay: 7s;
+  }
+  .ShowNavBar {
+    left: 0;
+  }
+  .ShowNavBar li a:nth-child(1) {
+    transform: translateX(0);
+    transition-delay: 2s;
+    transition: 3s ease;
+  }
+  .ShowNavBar li a:nth-child(2) {
+    transform: translateX(0);
+    transition-delay: 2s;
+    transition: 3s ease;
+  }
+  .ShowNavBar li a:nth-child(3) {
+    transform: translateX(0);
+    transition-delay: 2s;
+    transition: 3s ease;
+  }
+  .ShowNavBar li a:nth-child(4) {
+    transform: translateX(0);
+    transition-delay: 2s;
+    transition: 3s ease;
+  }
+  .ShowNavBar li a:nth-child(5) {
+    transform: translateX(0);
+    transition-delay: 2s;
+    transition: 3s ease;
+  }
+  .ShowNavBar li a:nth-child(6) {
+    transform: translateX(0);
+    transition-delay: 6s;
+    transition: 3s ease;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

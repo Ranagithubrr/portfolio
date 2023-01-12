@@ -1,0 +1,106 @@
+@import "MainCommonStyles";
+
+.Review {
+    // box-shadow: 2px 0px 27px 5px #494d52;
+    // -webkit-box-shadow: 2px 0px 27px 5px #494d52;
+    // -moz-box-shadow: 2px 0px 27px 5px #494d52;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    cursor:grab;
+    background-color: #1f2432;
+
+    .ReviewTop {
+        display: flex;
+        position: relative;
+
+        img {
+            height: 100px;
+            width: 100px;
+            border-radius: 20px;
+        }
+
+        .clientDesc {
+            padding-left: 30px;
+            width:80%;
+
+            h4 {
+                font-size: 22px;
+                color: $fontColor;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+
+                img {
+                    height: 20px;
+                    width: 30px;
+                    border-radius: 0%;
+                    position: absolute;
+                    right: 0;
+
+                }
+            }
+
+            h6 {
+                color: $fontColor2;
+                font-size: 14px;
+                margin-top: 5px;
+            }
+
+            h5 {
+                color: $fontColor;
+                font-size: 16px;
+                margin-top: 5px;
+                white-space: nowrap;
+                width: 82%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            span {
+                color: $fontColor2;
+                text-decoration: none;
+                font-size: 12px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .ReviewBottom {
+        padding-top: 30px;
+
+        p {
+            line-height: 0px;
+
+            .leftQuote {
+                transform: rotate(180deg);
+                display: inline-block;
+                font-size: 35px;
+            }
+
+            .RightQuote {
+                font-size: 35px;
+                display: inline-block;
+            }
+
+        }
+    }
+
+    .ratingsBox {
+        position: absolute;
+        bottom: 20px;
+
+        span {
+            color: #faf600;
+            margin-left: 5px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+}
