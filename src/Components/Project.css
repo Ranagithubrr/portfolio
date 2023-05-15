@@ -88,4 +88,23 @@
 .Project .ProjectsCard .buttons .githubLink {
   background-color: #DC143C;
   color: #fff;
+}
+.Project .viewMoreProject {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.Project .viewMoreProject a {
+  background: crimson;
+  border: 1px solid rgba(220, 20, 60, 0.568627451);
+  color: #d8d6d6;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  text-decoration: none;
+  margin: 10px 0;
 }/*# sourceMappingURL=Project.css.map */

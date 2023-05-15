@@ -2,6 +2,7 @@ import React from 'react';
 import { MdCall, MdEmail } from 'react-icons/md';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { ImLocation } from 'react-icons/im';
+import { MessengerChat } from "react-messenger-chat-plugin";
 
 
 import './Contact.css';
@@ -29,11 +30,17 @@ const Contact = () => {
                                 Drop a message
                             </h4>
                             <form action="https://formsubmit.co/ranarr.dev@gmail.com" method="POST">
-                                <input type="text" name='name' placeholder='Name' required/>
-                                <input type="email" name='email' placeholder='Email' required/>
+                                <input type="text" name='name' placeholder='Name' required />
+                                <input type="email" name='email' placeholder='Email' required />
                                 <textarea name="message" id="" cols="30" rows="10" placeholder='Message' required></textarea>
                                 <button type='submit'>Submit</button>
                             </form>
+                            <MessengerChat
+                                pageId="101861642848604"
+                                language="en_US"
+                                themeColor={"#DC143C"}
+                                bottomSpacing={50}                               
+                            />
                         </div>
                     </div>
                     <div className="row my-3">

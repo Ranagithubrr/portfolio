@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import Project from './Components/Project';
 import Sliders from './Components/Sliders';
 import Contact from './Components/Contact';
+import Skills from './Components/Skills';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <div className="MainArea">
           <Home />
           <Project />
+          <Skills />
           <Sliders />
           <Contact />
         </div>

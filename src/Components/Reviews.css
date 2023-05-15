@@ -3,7 +3,6 @@
   width: 90%;
   margin: auto;
   height: 350px;
-  cursor: -webkit-grab;
   cursor: grab;
   background-color: #1f2432;
 }
@@ -62,7 +61,7 @@
   padding-top: 30px;
 }
 .Review .ReviewBottom p {
-  line-height: 0px;
+  line-height: 20px;
 }
 .Review .ReviewBottom p .leftQuote {
   transform: rotate(180deg);

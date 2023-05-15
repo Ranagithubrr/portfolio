@@ -86,6 +86,10 @@ const Project = () => {
                         })
                     }
                 </motion.div>
+                <div className="viewMoreProject">
+
+                    <a href="https://github.com/Ranagithubrr" target='_blank' rel="noreferrer">View More Projects On GitHub</a>
+                </div>
             </div>
         </section>
     )
