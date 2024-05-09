@@ -102,7 +102,7 @@ const Home = () => {
             </div>
             <div className={`whatsAppChat ${showChat}`}>
                 <a href="https://wa.me/+8801996722640/?text=%27Hello">
-                    <img src={WhatsAppChat} alt="" />
+                    <img src={WhatsAppChat} alt="whatsapp" />
                 </a>
             </div>
         </div>
