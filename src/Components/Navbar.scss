@@ -39,8 +39,8 @@
     .HireMeBtn {
         border: none;
         outline: none;
-        background:transparent;
-        border:2px solid #00CF5D;
+        background: transparent;
+        border: 2px solid #00CF5D;
         color: #cacaca;
         font-weight: 600;
         font-size: 12px;
@@ -50,7 +50,7 @@
         cursor: pointer;
         text-decoration: none;
 
-        &:hover {        
+        &:hover {
             transform: scale(1.1);
         }
 
@@ -106,6 +106,8 @@
         .bar3 {
             transform: rotate(45deg);
             transform-origin: right top;
+            margin-top: 7px;
+            margin-left: 6px;
         }
     }
 }
@@ -116,7 +118,7 @@
         position: fixed;
         height: 100vh;
         width: 100vw;
-        background-color: #212428;
+        background-color: #111A28;
         top: 0;
         left: -100%;
         text-align: center;
@@ -132,70 +134,94 @@
                 transition: 0.3s ease;
                 display: block;
                 padding: 40px 0;
-                &:nth-child(1){
+
+                &:nth-child(1) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 2s;
-                };
-                &:nth-child(2){
+                }
+
+                ;
+
+                &:nth-child(2) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 3s;
-                };
-                &:nth-child(3){
+                }
+
+                ;
+
+                &:nth-child(3) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 4s;
-                };
-                &:nth-child(4){
+                }
+
+                ;
+
+                &:nth-child(4) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 5s;
-                };
-                &:nth-child(5){
+                }
+
+                ;
+
+                &:nth-child(5) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 6s;
-                };
-                &:nth-child(6){
+                }
+
+                ;
+
+                &:nth-child(6) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 7s;
-                };
+                }
+
+                ;
             }
         }
     }
 
     .ShowNavBar {
         left: 0;
-        li{
-            a{
-                &:nth-child(1){
+
+        li {
+            a {
+                &:nth-child(1) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(3){
+
+                &:nth-child(3) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(4){
+
+                &:nth-child(4) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(5){
+
+                &:nth-child(5) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(6){
+
+                &:nth-child(6) {
                     transform: translateX(0);
                     transition-delay: 6s;
                     transition: 3s ease;
