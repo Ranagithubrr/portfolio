@@ -1,0 +1,47 @@
+@import "MainCommonStyles";
+
+#experience{
+    margin-top: 30px;
+    .experienceText{
+        @include sectionHeading;
+
+    }
+    .experienceBox{
+        padding:10px 0;
+        display: flex;
+        .leftSide{
+            width:50%;
+            img{
+                width:50%;
+            }
+        }
+        .rightSide{
+            width:50%;
+            img{
+                width:100%;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .experienceBox{    
+        display: block !important;
+        .leftSide{
+            width:100% !important;
+            img{
+                width:100% !important;
+            }
+        }
+        .rightSide{
+            width:100% !important;
+            img{
+                width:100%;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}

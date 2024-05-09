@@ -1,0 +1,46 @@
+#experience {
+  margin-top: 30px;
+}
+#experience .experienceText {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Prosto One", cursive;
+}
+#experience .experienceBox {
+  padding: 10px 0;
+  display: flex;
+}
+#experience .experienceBox .leftSide {
+  width: 50%;
+}
+#experience .experienceBox .leftSide img {
+  width: 50%;
+}
+#experience .experienceBox .rightSide {
+  width: 50%;
+}
+#experience .experienceBox .rightSide img {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .experienceBox {
+    display: block !important;
+  }
+  .experienceBox .leftSide {
+    width: 100% !important;
+  }
+  .experienceBox .leftSide img {
+    width: 100% !important;
+  }
+  .experienceBox .rightSide {
+    width: 100% !important;
+  }
+  .experienceBox .rightSide img {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=Experience.css.map */

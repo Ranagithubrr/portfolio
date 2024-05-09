@@ -1,0 +1,82 @@
+[
+    {
+        "id":"1",
+        "name":"Department Management System",
+        "img":"https://firebasestorage.googleapis.com/v0/b/images-7a0ee.appspot.com/o/kuri-project-ss.png?alt=media&token=ead12c12-bcdb-461f-944f-8cb2a9054804",
+        "desc":"This is a website made with HTML,CSS and JS",
+        "type":"fullstack",
+        "technologies":"REACT JS, EXPRESS JS, TAILWIND CSS",
+        "livelink":"https://kuri-cmt.netlify.app/dashboard",
+        "githublink":"https://github.com/Ranagithubrr/kuricmt"
+    },
+    {
+        "id":"2",
+        "name":"Appri Landing Page",
+        "img":"https://firebasestorage.googleapis.com/v0/b/images-7a0ee.appspot.com/o/appri.png?alt=media&token=5129734a-5d72-4bbb-add9-e34f18f43092",
+        "desc":"This is a website made with HTML,CSS and JS",
+        "type":"ui",
+        "technologies":"HTML,CSS,JS",
+        "livelink":"https://ranagithubrr.github.io/appri/",
+        "githublink":"https://github.com/Ranagithubrr/appri"
+    },
+    {
+        "id":"3",
+        "name":"Axit Landing Page",
+        "img":"https://firebasestorage.googleapis.com/v0/b/images-7a0ee.appspot.com/o/axit.png?alt=media&token=444d0d64-3ee8-4d4a-8ef9-446e8bf78bd9",
+        "desc":"This is a demo desc",
+        "type":"ui",
+        "technologies":"HTML,CSS,JS",
+        "livelink":"https://ranagithubrr.github.io/axit/",
+        "githublink":"https://github.com/Ranagithubrr/axit"
+    },
+    {
+        "id":"4",
+        "name":"Doar React Clone App",
+        "img":"https://firebasestorage.googleapis.com/v0/b/images-7a0ee.appspot.com/o/doar.png?alt=media&token=47709a21-9a71-42b9-a897-84f0107e9fa0",
+        "desc":"This is a React App",
+        "type":"react",
+        "technologies":"React,Recharts,MaterialUi",
+        "livelink":"https://doar-admin-dashboard.netlify.app/",
+        "githublink":"https://github.com/Ranagithubrr/admin-dashboard"
+    },
+    {
+        "id":"5",
+        "name":"Finix Landing Page",
+        "img":"https://firebasestorage.googleapis.com/v0/b/images-7a0ee.appspot.com/o/finix.png?alt=media&token=c5983dba-42e0-4f4f-9a90-ae93ad03c450",
+        "desc":"This is a Landing Page",
+        "type":"ui",
+        "technologies":"HTML,CSS,JS",
+        "livelink":"https://ranagithubrr.github.io/Finix/",
+        "githublink":"https://github.com/Ranagithubrr/Finix"
+    },
+    {
+        "id":"6",
+        "name":"Xisen Landing Page",
+        "img":"https://firebasestorage.googleapis.com/v0/b/images-7a0ee.appspot.com/o/xisen.png?alt=media&token=9db684de-0dec-400f-9b98-37db99d1687e",
+        "desc":"This is a Landing Page",
+        "type":"ui",
+        "technologies":"HTML,CSS,JS",
+        "livelink":"https://ranagithubrr.github.io/xisen/",
+        "githublink":"https://github.com/Ranagithubrr/xisen"
+    },
+    {
+        "id":"7",
+        "name":"Hostko Landing Page",
+        "img":"https://firebasestorage.googleapis.com/v0/b/images-7a0ee.appspot.com/o/hostko.png?alt=media&token=99007f55-1985-4a29-8f4c-314f1edd9fdf",
+        "desc":"A hosting Landing Page",
+        "type":"react",
+        "technologies":"React",
+        "livelink":"https://hostko.netlify.app/",
+        "githublink":"https://github.com/Ranagithubrr/Hostko"
+    },
+    {
+        "id":"8",
+        "name":"Retech Mobile Shop",
+        "img":"https://firebasestorage.googleapis.com/v0/b/images-7a0ee.appspot.com/o/retechpng.png?alt=media&token=90948449-f54a-4f73-b772-5d13a4bbc752",
+        "desc":"A full stack web application",
+        "type":"fullstack",
+        "technologies":"React, Firebase",
+        "livelink":"https://retech-bd.netlify.app/",
+        "githublink":"https://github.com/Ranagithubrr/Retech"
+    }
+]

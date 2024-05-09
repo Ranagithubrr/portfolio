@@ -1,0 +1,247 @@
+.whatsAppChat{
+  position:fixed;
+  z-index: 10;
+  bottom:-50px;
+  right:30px;
+  transition: 0.3s ease;
+}
+.showChat{
+  bottom:50px;
+}
+.whatsAppChat img{
+  width:50px;
+}
+
+
+.greetingDiv {
+  position: fixed;
+  bottom: 30%;
+  right: 0;
+  z-index: 1000;
+}
+.greetingDiv img {
+  width: 10rem;
+  transition: 0.5s ease-in-out;
+}
+.greetingDiv .greatingBox {
+  position: absolute;
+  height: 8rem;
+  width: 20rem;
+  background-color: #fff;
+  border-radius: 20px;
+  right: 50%;
+  top: 80%;
+  color: #000;
+  padding: 20px 30px;
+  transition: 1s ease;
+}
+.greetingDiv .greatingBox::after {
+  content: "";
+  position: absolute;
+  top: -10%;
+  right: -7%;
+  width: 20%;
+  height: 35%;
+  transform: rotate(45deg);
+  border-radius: 50px;
+  background-color: #fff;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.greetingDiv .greatingBox .confirmingBox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.greetingDiv .greatingBox .confirmingBox .yeahSure {
+  color: green;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+.greetingDiv .greatingBox .confirmingBox .nowNow {
+  color: brown;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.hideGreatingDiv .greatingBox {
+  opacity: 0;
+  pointer-events: none !important;
+}
+.hideGreatingDiv img {
+  margin-right: -20rem;
+}
+
+.Home {
+  min-height: 80vh;
+  display: flex;
+  padding-top: 5rem;
+}
+.Home h4 {
+  color: #d8d6d6;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.Home h1 {
+  font-size: 62px;
+  font-weight: 900;
+}
+.Home h1 span {
+  color: #fff;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.Home h1 span span {
+  color: #00CF5D;
+}
+.Home h3 {
+  font-size: 42px;
+  font-family: "Prosto One", cursive;
+  display: flex;
+}
+.Home h3 span {
+  margin-left: 15px;
+}
+.Home p {
+  font-size: 16px;
+  color: #d8d6d6;
+  letter-spacing: 2px;
+}
+.Home .cbBtn {
+  background: #00CF5D;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+.Home .front-face,
+.Home .back-face,
+.Home .contents {
+  position: absolute;
+}
+.Home .cardDiv {
+  height: 400px;
+  width: 300px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+.Home .contents {
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  perspective: 100px;
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+}
+.Home .front-face,
+.Home .back-face {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-image: url("../img/profile.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: 2s;
+  transition: traansform 0.7s cubic-bezier();
+}
+.Home .back-face {
+  transform: rotateY(180deg);
+  background: linear-gradient(45deg, #043348 0%, #032535 100%);
+}
+.Home .back-face img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 4px solid #00CF5D;
+}
+.Home .back-face h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.Home .back {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.Home .back p {
+  color: yellow;
+}
+.Home .back .socialIcons {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.Home .back .connectBtn {
+  border: 2px solid #00CF5D;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.1s ease;
+  display: inline-block;
+}
+.Home .back .connectBtn:hover {
+  border-width: 5px;
+  border-radius: 0;
+}
+.Home .cardDiv:hover > .back-face {
+  transform: rotateY(0deg);
+}
+.Home .cardDiv:hover ~ .socialIcons {
+  visibility: hidden;
+  pointer-events: none !important;
+  opacity: 0;
+}
+.Home .cardDiv:hover ~ .socialIcons a {
+  margin-left: 20px;
+  margin-top: -200px;
+}
+.Home .cardDiv:hover .back {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.Home .cardDiv:hover > .front-face {
+  transform: rotateY(-180deg);
+}
+.Home .socialIcons {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  transition: 0.3s ease;
+}
+.Home .socialIcons a {
+  color: #fff;
+  margin: 10px;
+  border-radius: 20%;
+  padding: 5px 10px;
+  font-size: 20px;
+  transition: 0.5s ease;
+}
+.Home .socialIcons a:hover {
+  background-color: #000;
+  color: #00CF5D;
+}
+
+@media screen and (max-width: 768px) {
+  .Home .cardDiv {
+    width: 100%;
+  }
+  .greetingDiv .greatingBox {
+    max-width: 15rem;
+  }
+}/*# sourceMappingURL=Home.css.map */
