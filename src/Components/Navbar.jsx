@@ -31,9 +31,8 @@ const Navbar = () => {
                 </div>
                 <div className="NavbarRight">
                     <ul className={`navBarItems ${nav}`}>
-                        <li>
-                            <a onClick={BarClicked} href="#">Home</a>
-                            <a onClick={BarClicked} href="#">About Me</a>
+                        <li>                            
+                            <a onClick={BarClicked} href="#/">About Me</a>
                             <a onClick={BarClicked} href="#projects">Projects</a>
                             <a onClick={BarClicked} href="#skills">My Skills</a>
                             <a onClick={BarClicked} href="#client">Clients</a>

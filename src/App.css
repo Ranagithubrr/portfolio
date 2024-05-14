@@ -10,7 +10,9 @@ font-family: 'Sevillana', cursive;
 font-family: 'Yeon Sung', cursive;
 */
 
-
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
 
 body {
   background-color: #111A28;
