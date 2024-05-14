@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import Reviews from './Reviews';
 import './Sliders.css';
 import Profile from '../img/Clients/profile.webp';
-import {MdArrowBackIosNew} from 'react-icons/md';
 
 const Sliders = () => {
 
