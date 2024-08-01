@@ -8,7 +8,6 @@ import Skills from './Components/Skills';
 import Experience from './Components/Experience';
 
 function App() {
-
   return (
     <div className="container-fluid">
       <div className="MyApp">

@@ -18,7 +18,7 @@
 
 .greetingDiv {
   position: fixed;
-  bottom: 30%;
+  top: 30%;
   right: 0;
   z-index: 1000;
 }
@@ -152,7 +152,7 @@
   width: 100%;
   text-align: center;
   background-image: url("../img/profile.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   border-radius: 10px;
   backface-visibility: hidden;
