@@ -13,6 +13,7 @@ const Project = () => {
   const [projects, setProjects] = useState(ProjectData);
   const FilterAllButtonClicked = () => {
     setProjects(ProjectData);
+    setAll("activeBtn");
     setReact("");
     setFull("");
     setUi("");
