@@ -109,7 +109,7 @@
   padding: 4px 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .navBarItems {
     position: fixed;
     height: 100vh;

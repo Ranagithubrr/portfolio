@@ -44,7 +44,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-12 col-md-6 col-lg-4">
+                <div className="col-12  col-md-6 col-lg-5">
                     <div className="cardDiv">
                         <div className="front-face">
                             <div className="contents front">
@@ -71,7 +71,7 @@ const Home = () => {
                         <a href="https://www.freelancer.com/hireme/ranarr122" rel="noreferrer" target={'_blank'}><span><SiFreelancer /></span></a>
                     </div>
                 </div>
-                <div className="col-12 col-md-6 col-lg-8">
+                <div className="col-12  col-md-6 col-lg-7">
                     <h4 className='my-4 my-md-0'>Hello! I am</h4>
                     <h1>Masud <span>R</span>ana</h1>
                     <h3>I'm a <span>
