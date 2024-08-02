@@ -97,7 +97,11 @@ const Home = () => {
                         <br />
                         <br />
                     </p>
-                    <a href={Resume} download className='cbBtn'>Download CV</a>
+                    <div className='cbBtn'>
+                    <a href={Resume} download className=''>Download CV</a>
+                    <div className="inner"></div>
+                    </div>
+                    
                 </div>
             </div>
             <div className={`whatsAppChat ${showChat}`}>

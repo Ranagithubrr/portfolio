@@ -46,7 +46,7 @@ const Contact = () => {
                         <div className="col-12 text-center">
                             <small className='footerText'>&copy; copyright Masud Rana 2024</small>
                             <br />
-                            <span className="footerText">version 2.2</span>
+                            <span className="footerText">version 3.0</span>
                         </div>
                     </div>
                 </div>

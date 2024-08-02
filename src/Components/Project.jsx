@@ -120,6 +120,7 @@ const Project = () => {
             ))}
           </AnimatePresence>
         </motion.div>
+        <div className="text-center my-4">
         <div className="viewMoreProject">
           <a
             href="https://github.com/Ranagithubrr"
@@ -128,6 +129,8 @@ const Project = () => {
           >
             View More Projects On GitHub
           </a>
+          <div className="inner"></div>
+        </div>
         </div>
       </div>
     </section>
