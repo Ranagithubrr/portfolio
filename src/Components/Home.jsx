@@ -97,12 +97,16 @@ const Home = () => {
                         <br />
                         <br />
                     </p>
-                    <a href={Resume} download className='cbBtn'>Download CV</a>
+                    <div className='cbBtn'>
+                    <a href={Resume} download className=''>Download CV</a>
+                    <div className="inner"></div>
+                    </div>
+                    
                 </div>
             </div>
             <div className={`whatsAppChat ${showChat}`}>
                 <a href="https://wa.me/+8801996722640/?text=%27Hello">
-                    <img src={WhatsAppChat} alt="" />
+                    <img src={WhatsAppChat} alt="whatsapp" />
                 </a>
             </div>
         </div>
