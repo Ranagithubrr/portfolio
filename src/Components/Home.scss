@@ -1,6 +1,21 @@
 @import "MainCommonStyles";
 
 
+.whatsAppChat {
+    background: none;
+    bottom: -500px;
+    position: fixed;
+    right: 40px;
+    transition: 1s ease-in-out;
+    z-index: 10;
+    img{
+        height: 50px;
+    width: 50px;
+    }
+}
+.showChat {
+    bottom: 50px;
+}
 .greetingDiv {
     position: fixed;
     bottom: 30%;
