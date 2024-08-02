@@ -16,9 +16,24 @@
 .showChat {
     bottom: 50px;
 }
+.whatsAppChat{
+    position:fixed;
+    bottom:-500px;
+    right:40px;
+    z-index: 10;
+    background: none;
+    transition: 1s ease-in-out;
+}
+.showChat{
+    bottom:50px;
+}
+.whatsAppChat img{
+    height:50px;
+    width:50px;
+}
 .greetingDiv {
     position: fixed;
-    bottom: 30%;
+    top: 30%;
     right: 0;
     z-index: 1000;
 
@@ -85,8 +100,7 @@
     img {
         margin-right: -20rem;
     }
-}
-
+}  
 .Home {    
     display: flex;
     // align-items: center;
@@ -183,7 +197,7 @@
         width: 100%;
         text-align: center;
         background-image: url('../img/profile.jpg');
-        background-size: cover;
+        background-size: 100% 100%;
         background-position: center;
         border-radius: 10px;
         backface-visibility: hidden;

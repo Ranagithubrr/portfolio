@@ -1,3 +1,5 @@
+
+
 .NavbarInner {
     display: flex;
     align-items: center;
@@ -125,17 +127,38 @@
         .bar3 {
             transform: rotate(45deg);
             transform-origin: right top;
+            margin-top: 7px;
+            margin-left: 6px;
         }
     }
 }
 
-@media screen and (max-width:768px) {
+.stickmenu{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(0, 0, 0, 0.2);
+    position:fixed;
+    width:100%;
+    max-height:50px;
+    background-color: #111A28;
+    z-index: 30;
+    .NavbarInner {
+        margin:5px auto;
+        .logo {
+            font-size: 20px;
+
+        }
+        .HireMeBtn{
+            padding:4px 15px;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
 
     .navBarItems {
         position: fixed;
         height: 100vh;
         width: 100vw;
-        background-color: #212428;
+        background-color: #111A28;
         top: 0;
         left: -100%;
         text-align: center;
@@ -151,70 +174,94 @@
                 transition: 0.3s ease;
                 display: block;
                 padding: 40px 0;
-                &:nth-child(1){
+
+                &:nth-child(1) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 2s;
-                };
-                &:nth-child(2){
+                }
+
+                ;
+
+                &:nth-child(2) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 3s;
-                };
-                &:nth-child(3){
+                }
+
+                ;
+
+                &:nth-child(3) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 4s;
-                };
-                &:nth-child(4){
+                }
+
+                ;
+
+                &:nth-child(4) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 5s;
-                };
-                &:nth-child(5){
+                }
+
+                ;
+
+                &:nth-child(5) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 6s;
-                };
-                &:nth-child(6){
+                }
+
+                ;
+
+                &:nth-child(6) {
                     transform: translateX(-500px);
                     transition: 5s ease;
                     transition-delay: 7s;
-                };
+                }
+
+                ;
             }
         }
     }
 
     .ShowNavBar {
         left: 0;
-        li{
-            a{
-                &:nth-child(1){
+
+        li {
+            a {
+                &:nth-child(1) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(3){
+
+                &:nth-child(3) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(4){
+
+                &:nth-child(4) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(5){
+
+                &:nth-child(5) {
                     transform: translateX(0);
                     transition-delay: 2s;
                     transition: 3s ease;
                 }
-                &:nth-child(6){
+
+                &:nth-child(6) {
                     transform: translateX(0);
                     transition-delay: 6s;
                     transition: 3s ease;

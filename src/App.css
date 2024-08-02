@@ -10,7 +10,9 @@ font-family: 'Sevillana', cursive;
 font-family: 'Yeon Sung', cursive;
 */
 
-
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+}
 
 body {
   background-color: #111A28;
@@ -20,9 +22,12 @@ body {
 
 
 
+
+
 .MainArea {
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 .container-fluid {
@@ -85,5 +90,12 @@ body {
   .Review .ReviewBottom {
     padding-top: 0 !important;
     padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width:1636px) {
+  .MainArea,
+  .NavbarInner{
+    max-width:1440px;
   }
 }

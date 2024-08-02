@@ -14,6 +14,8 @@ const Navbar = () => {
     const [nav,setNav] = useState('');
 
 
+    const [stick,setStick] = useState('');
+
 
     const BarClicked = () =>{
         bar1 === '' ? setBar1('bar1') : setBar1('');
@@ -23,17 +25,26 @@ const Navbar = () => {
         nav === '' ? setNav('ShowNavBar') : setNav('');
     }
 
+    const handleScroll = () => {
+        if (window.scrollY >= 500) {
+            setStick('stickmenu')
+        }else{
+            setStick('')
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+
     return (
-        <div className='Navbar'>
+        <div className={`Navbar ${stick}`}>
             <div className="NavbarInner">
                 <div className="NavbarLeft">
                     <span className="logo">Rana <span>RR</span></span>
                 </div>
                 <div className="NavbarRight">
                     <ul className={`navBarItems ${nav}`}>
-                        <li>
-                            <a onClick={BarClicked} href="#">Home</a>
-                            <a onClick={BarClicked} href="#">About Me</a>
+                        <li>                            
+                            <a onClick={BarClicked} href="/#">About Me</a>
                             <a onClick={BarClicked} href="#projects">Projects</a>
                             <a onClick={BarClicked} href="#skills">My Skills</a>
                             <a onClick={BarClicked} href="#client">Clients</a>

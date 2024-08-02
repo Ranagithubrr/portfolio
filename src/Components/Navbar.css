@@ -107,14 +107,34 @@
 .NavbarInner .barIcon .bar3 {
   transform: rotate(45deg);
   transform-origin: right top;
+  margin-top: 7px;
+  margin-left: 6px;
 }
 
-@media screen and (max-width: 768px) {
+.stickmenu {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  max-height: 50px;
+  background-color: #111A28;
+  z-index: 30;
+}
+.stickmenu .NavbarInner {
+  margin: 5px auto;
+}
+.stickmenu .NavbarInner .logo {
+  font-size: 20px;
+}
+.stickmenu .NavbarInner .HireMeBtn {
+  padding: 4px 15px;
+}
+
+@media screen and (max-width: 800px) {
   .navBarItems {
     position: fixed;
     height: 100vh;
     width: 100vw;
-    background-color: #212428;
+    background-color: #111A28;
     top: 0;
     left: -100%;
     text-align: center;
