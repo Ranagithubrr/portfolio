@@ -6,6 +6,7 @@ import Sliders from './Components/Sliders';
 import Contact from './Components/Contact';
 import Skills from './Components/Skills';
 import Experience from './Components/Experience';
+import Github from './Components/Github';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Navbar />
         <div className="MainArea">
           <Home />
+          <Github />
           <Project />
+          
           <Skills />
           <Experience />
           <Sliders />
